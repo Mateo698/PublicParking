@@ -19,9 +19,10 @@ public class Parqueadero {
 	
 	public void marcarHoraInicio(String tipoV) {
 		tipoVehiculo = tipoV;
-		// To modify:
-		horaInicio   = 7;
-		minutoInicio = 0;
+		// To modify: Ready
+		horaInicio   = (int)(12+Math.random()*10);
+		minutoInicio = (int)(Math.random()*60);
+
 	}
 	
 	public String darHoraInicio() {
@@ -29,9 +30,10 @@ public class Parqueadero {
 	}
 	
 	public void marcarHoraFinal() {
-		// To modify:
-		horaInicio   = 12;
-		minutoInicio = 0;
+		// To modify: :
+		horaInicio   = (int)(12+Math.random()*10);
+		minutoInicio = (int)(Math.random()*60);
+
 	}
 	
 	public String darHoraFinal() {
